@@ -2,9 +2,13 @@ body{
 	/*background-color: #ace7ef;*/
 	margin: 0;
 	font-family: arial;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
+	max-width: 800px;
+	margin: 0 auto;
 	background-color: #a7acec;
 	text-align: center;
 	padding-top: 50px;
@@ -12,6 +16,7 @@ header{
 }
 h1 , h2 {
 	font-family: 'Smooch Sans', sans-serif;
+
 }
 header h1{
 	color: #2C5D6D;
@@ -22,4 +27,53 @@ header img{
 	border-radius: 170px;
     width: 300px;
     border: 20px solid #B9AC59;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+	padding-top: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 40px;
+	color: #B9AC59;
+}
+
+a{
+	color: #2C5D6D;
+}
+
+a:hover{
+	background-color: peachpuff;
+	color:  purple;
+}
+
+footer{
+	background-color: #a7acec;
+	text-align: center;
+	padding: 10px;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+footer p{
+	margin: 0;
+}
+
+p.caption{
+	margin-top: 0;
+	color: #904440;
+	font-family: times new roman;
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
 }
