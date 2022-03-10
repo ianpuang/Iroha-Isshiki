@@ -19,7 +19,7 @@ h1 , h2 {
 
 }
 header h1{
-	color: #2C5D6D;
+	color: #2C5D6D, darkgrey;
 	font-family: Bradley Hand ITC, Bodoni MT, arial;
 }
 
